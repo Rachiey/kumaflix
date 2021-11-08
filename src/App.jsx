@@ -7,8 +7,7 @@ import * as Pages from './pages';
 const App = () => {
     return (
     <>
-        {/* <Header /> */}
-        
+       
         <Switch>
         <Route exact path='/'>
             
@@ -23,14 +22,17 @@ const App = () => {
 
         <Route path='/korilakkuma'>
           <Pages.Korilakkuma />
+          <Header />
         </Route>
 
         <Route path='/kiiroitori'>
           <Pages.Kiiroitori />
+          <Header />
         </Route>
 
         <Route path='/chairoikoguma'>
           <Pages.Chairoikoguma />
+          <Header />
         </Route>
 
         </Switch>

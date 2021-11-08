@@ -1,40 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 .card {
-    height: 50px;
-    width: 50px;
-    color: black;
-    background-color: white;
-    padding: 45px;
-    padding-bottom: 60px;
-    opacity: 0.6;
-    display: grid;
-    grid-gap: 2px;
-    margin-top: 20px;
+    color: grey;
+    /* opacity: 0.6; */
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
-    align-content: center;
+    /* display: grid; */
+  
 }
-
 
 
 .card:hover {
     opacity: 1;
+    color: white;
     cursor: pointer;
 }
 
 .card.small {
-    height: 300px;
-    width: 300px;
+    height: 130px;
+    width: 130px;
+    border: 1px solid transparent;
+    text-align: center;
+    
 }
 .card.large {
     height: 300px;
     width: 300px;
-}
-
-section {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-
 }
