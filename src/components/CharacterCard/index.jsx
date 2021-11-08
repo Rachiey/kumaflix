@@ -4,10 +4,13 @@ import './style.css';
 
 
 
+
 export const CharacterCard = ({size, name, image }) => {
    
     return (
         <div className={`card ${size}`}>
+          
+
             <Cover image={image} />
             <h3>{name}</h3>
         

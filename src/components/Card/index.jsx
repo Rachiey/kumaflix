@@ -22,3 +22,4 @@ export const Card = ({size, netflixTitle, netflixType, synopsis, image }) => {
         </div>
     )
 }
+

@@ -16,7 +16,7 @@ export default {
     }
 }
 
-const Template = args => <Card {...args} />
+const Template = args => <CharacterCard {...args} />
 
 export const Default = Template.bind({});
 
@@ -25,6 +25,32 @@ Small.args = {
     size: 'small',
     name: "Rilakkuma", 
 }
+
+export const Rilakkuma = Template.bind({});
+Rilakkuma.args = {
+    size: 'small',
+    name: "Rilakkuma", 
+}
+
+export const Korilakkuma = Template.bind({});
+Korilakkuma.args = {
+    size: 'small',
+    name: "Korilakkuma", 
+}
+
+export const Kiiroitori = Template.bind({});
+Kiiroitori.args = {
+    size: 'small',
+    name: "Kiiroitori", 
+}
+
+export const Chairoikoguma = Template.bind({});
+Chairoikoguma.args = {
+    size: 'small',
+    name: "Chairoikoguma", 
+}
+
+
 
 export const Large = Template.bind({});
 Large.args = {
