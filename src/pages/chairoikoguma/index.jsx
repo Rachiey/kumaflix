@@ -10,9 +10,9 @@ const chaiFilms = [
 
 
 export const Chairoikoguma = () => {
-    const renderFilms = () => chaiFilms.map((p, i) => {
+    const renderChaiFilms = () => chaiFilms.map((p, i) => {
         return (
-            <div key ={i} className="artists">
+            <div key ={i} className="films">
                 <div className="greyBox">
                     <Card netflixTitle={p.netflixTitle} netflixType={p.netflixType} synopsis={p.synopsis} image={p.image} />
                     <LikeButton />
@@ -28,7 +28,7 @@ export const Chairoikoguma = () => {
         <h1 className="chairoikogumaTitle"> Chairoikoguma's Favourite Films </h1>
         <section id="films">
            
-            { renderFilms() }
+            { renderChaiFilms() }
         </section>
         </>
     )

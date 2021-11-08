@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, LikeButton } from '../../components/';
+import { Card, LikeButton } from '../../components';
 import './style.css';
 
 const rilaFilms = [
@@ -10,9 +10,9 @@ const rilaFilms = [
 
 
 export const Rilakkuma = () => {
-    const renderFilms = () => rilaFilms.map((p, i) => {
+    const renderRilaFilms = () => rilaFilms.map((p, i) => {
         return (
-            <div key ={i} className="artists">
+            <div key ={i} className="films">
                 <div className="greyBox">
                     <Card netflixTitle={p.netflixTitle} netflixType={p.netflixType} synopsis={p.synopsis} image={p.image} />
                     <LikeButton />
@@ -28,7 +28,7 @@ export const Rilakkuma = () => {
         <h1 className="rilakkumaTitle"> Rilakkuma's Favourite Films </h1>
         <section id="films">
            
-            { renderFilms() }
+            { renderRilaFilms() }
         </section>
         </>
     )

@@ -10,9 +10,9 @@ const kiiFilms = [
 
 
 export const Kiiroitori = () => {
-    const renderFilms = () => kiiFilms.map((p, i) => {
+    const renderKiiFilms = () => kiiFilms.map((p, i) => {
         return (
-            <div key ={i} className="artists">
+            <div key ={i} className="films">
                 <div className="greyBox">
                     <Card netflixTitle={p.netflixTitle} netflixType={p.netflixType} synopsis={p.synopsis} image={p.image} />
                     <LikeButton />
@@ -28,7 +28,7 @@ export const Kiiroitori = () => {
         <h1 className="kiiroitoriTitle"> Kiiroitori's Favourite Films </h1>
         <section id="films">
            
-            { renderFilms() }
+            { renderKiiFilms() }
         </section>
         </>
     )

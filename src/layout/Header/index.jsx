@@ -10,9 +10,9 @@ export const Header = () => {
             <NavLink className="kumaFlix" exact to='/'>Kumaflix</NavLink>
             <NavLink exact to='/'>Home</NavLink>
             <BackButton className="backButton" />
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
+            <div className="dropdown">
+                <button className="dropbtn">Dropdown</button>
+                <div className="dropdown-content">
                 <NavLink to='/rilakkuma'>Rilakkuma</NavLink>
                 <NavLink to='/korilakkuma'>Korilakkuma</NavLink>
                 <NavLink to='/kiiroitori'>Kiiroitori</NavLink>

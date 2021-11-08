@@ -3,12 +3,8 @@ import { Header } from './layout';
 import { Switch, Route } from 'react-router-dom';
 import * as Pages from './pages';
 
-import { useSelector } from 'react-redux';
 
 const App = () => {
-    const type= useSelector((store) => store.musicType )
-    const name = useSelector((store) => store.artistName )
-
     return (
     <>
         <Header />
@@ -20,19 +16,19 @@ const App = () => {
         </Route>
 
         <Route path='/rilakkuma'>
-          <Pages.rilakkuma />
+          <Pages.Rilakkuma />
         </Route>
 
         <Route path='/korilakkuma'>
-          <Pages.korilakkuma />
+          <Pages.Korilakkuma />
         </Route>
 
         <Route path='/kiiroitori'>
-          <Pages.kiiroitori />
+          <Pages.Kiiroitori />
         </Route>
 
         <Route path='/chairoikoguma'>
-          <Pages.chairoikoguma />
+          <Pages.Chairoikoguma />
         </Route>
 
         </Switch>

@@ -10,9 +10,9 @@ const korilaFilms = [
 
 
 export const Korilakkuma = () => {
-    const renderFilms = () => korilaFilms.map((p, i) => {
+    const renderKorilaFilms = () => korilaFilms.map((p, i) => {
         return (
-            <div key ={i} className="artists">
+            <div key ={i} className="films">
                 <div className="greyBox">
                     <Card netflixTitle={p.netflixTitle} netflixType={p.netflixType} synopsis={p.synopsis} image={p.image} />
                     <LikeButton />
@@ -28,7 +28,7 @@ export const Korilakkuma = () => {
         <h1 className="korilakkumaTitle"> Korilakkuma's Favourite Films </h1>
         <section id="films">
            
-            { renderFilms() }
+            { renderKorilaFilms() }
         </section>
         </>
     )
