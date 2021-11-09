@@ -7,6 +7,12 @@ html {
     margin: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .html {
+        height: 95vh;
+    }
+}
+
 .border {
     width: 100%;
     position: fixed;
@@ -56,9 +62,6 @@ html {
 @media screen and (max-width: 600px) {
     .card {
        margin-bottom: 60px;
-      
-      
-      
     }
 }
 
