@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
     background-color: #141414;
     width: 90%;
@@ -13,23 +15,15 @@ html {
 
 }
 
-.kumaFlixTitle {
-    color:red;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    font-family: Helvetica-Neue, Arial, sans-serif;
-    margin-left: 35px;
-   
 
-}
 
 .netflixHeading {
     color: white;
     text-align: center;
     font-family: Helvetica-Neue, Arial, sans-serif;
     font-size: 45px;
-    font-weight: 400;
-    margin-top: 150px;
+    font-weight: 100;
+    margin-top: 170px;
     margin-bottom: 0 !important;
     
 }
@@ -79,3 +73,15 @@ img:hover {
     border: 2px solid white;
   }
 
+img.logo {
+    border: none;
+    height: 35px;
+    width: 130px;
+    margin-top: 15px;
+    margin-left: 45px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    max-width: 100%;
+}
