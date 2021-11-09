@@ -23,6 +23,14 @@
     text-align: center;
     
 }
+
+@media screen and (max-width: 600px) {
+    .card.small {
+       height:100px;
+       width: 100px;
+    }
+}
+
 .card.large {
     height: 300px;
     width: 300px;
