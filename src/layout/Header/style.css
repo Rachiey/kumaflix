@@ -4,7 +4,7 @@ nav {
     width: 100vw;
     position: fixed;
     top: 0;
-    background-color: black;
+    background-image: linear-gradient(black, #141414 );
     padding: 30px;
     display: block;
     justify-content: space-around;

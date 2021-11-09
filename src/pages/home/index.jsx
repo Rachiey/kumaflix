@@ -10,7 +10,9 @@ export const Home = () => {
 
 return (
     <>
-
+    <div className='border'>
+<h1 className="kumaFlixTitle">KUMAFLIX</h1> 
+</div>
 <h1 className="netflixHeading">Who's watching?</h1> 
    <div className="characterGrid">
 
