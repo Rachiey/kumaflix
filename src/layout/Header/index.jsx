@@ -7,7 +7,7 @@ export const Header = () => {
     return(
         
         <nav>
-            <NavLink className="kumaFlix" exact to='/'>Kumaflix</NavLink>
+            {/* <NavLink className="kumaFlix" exact to='/'>Kumaflix</NavLink> */}
             <NavLink exact to='/'>Home</NavLink>
             <BackButton className="backButton" />
             <div className="dropdown">
