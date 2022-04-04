@@ -52,11 +52,3 @@ Chairoikoguma.args = {
 
 
 
-export const Large = Template.bind({});
-Large.args = {
-    size: 'large',
-    name: 'A post awaits...',
-    artistName: 'Queen ',
-    musicType: 'Rock ',
-    intro: 'Queen are a British rock band formed in London in 1970.'
-}
