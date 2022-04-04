@@ -9,9 +9,9 @@ export const Header = () => {
     return(
         
         <nav>
-            <div className='border'>
+            
                 <img className='logo'src={logo} />
-            </div>
+           
 
             {/* <NavLink className="kumaFlix" exact to='/'>Kumaflix</NavLink>
             <NavLink exact to='/'>Home</NavLink> */}
