@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+html {
+  padding: 0px;
+  margin: 0px;
+
+}
 nav {
-    width: 100vw;
+    width: 90vw;
     position: fixed;
     top: 0;
     background-image: linear-gradient(black, #141414 );
