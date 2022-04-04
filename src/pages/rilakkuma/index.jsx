@@ -1,6 +1,9 @@
 import React from 'react';
 import { Card, LikeButton } from '../../components';
 import './style.css';
+import logo from '../../../src/kumaflix.png';
+
+
 
 const rilaFilms = [
     { netflixTitle: "Hana's Lazy Meals", netflixType: "TV Show",  synopsis: "After Hana Komazawa's (Kana Kurashina) is transfered to another city for work, Hana Komazawa begins making and eating zubora meshi (sloppy meals) which doesn't need much work.", image: "https://asianwiki.com/images/9/98/Hana_no_Zubora_Meshi-p2.jpg"},
@@ -10,6 +13,7 @@ const rilaFilms = [
 
 
 export const Rilakkuma = () => {
+    
     const renderRilaFilms = () => rilaFilms.map((p, i) => {
         return (
             <div key ={i} className="films">
@@ -25,6 +29,9 @@ export const Rilakkuma = () => {
 
     return (
         <>
+        <div className='border'>
+    <img className='logo'src={logo} />
+</div>
         <h1 className="rilakkumaTitle"> Rilakkuma's Favourite Films </h1>
         <section id="films">
            
