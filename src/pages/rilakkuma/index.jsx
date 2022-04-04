@@ -29,9 +29,7 @@ export const Rilakkuma = () => {
 
     return (
         <>
-        <div className='border'>
-    <img className='logo'src={logo} />
-</div>
+        
         <h1 className="rilakkumaTitle"> Rilakkuma's Favourite Films </h1>
         <section id="films">
            
