@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-    color: #1ED761;
+    color: #d71e1e;
 }
 
 .notify:hover {
@@ -35,7 +35,7 @@ a:hover {
 }
 
 .current {
-    color: #1ED761;
+    color: #d71e1e;
     font-weight: bolder;
 }
 
@@ -58,7 +58,7 @@ a:hover {
 
 #back-button:hover {
     color:#DDDDDD;
-    border-color:#1ED761;
+    border-color:#d71e1e;
 } 
 
 @media screen and (max-width: 600px) {
