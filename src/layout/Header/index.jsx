@@ -11,7 +11,7 @@ export const Header = () => {
             <NavLink exact to='/'>Home</NavLink>
             <BackButton className="backButton" />
             <div className="dropdown">
-                <button className="dropbtn">Dropdown</button>
+                <button className="dropbtn">Profiles</button>
                 <div className="dropdown-content">
                 <NavLink to='/rilakkuma'>Rilakkuma</NavLink>
                 <NavLink to='/korilakkuma'>Korilakkuma</NavLink>
