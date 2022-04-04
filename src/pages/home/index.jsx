@@ -58,7 +58,7 @@ return (
     <CharacterCard
     name="Chairoikoguma"
     size="small"
-    image="https://stickershop.line-scdn.net/stickershop/v1/product/19873/LINEStorePC/main.png;compress=true"
+    image="https://preview.redd.it/m2tnhqlzgu281.jpg?auto=webp&s=f9e34b330df1027ee8afef059807861f75f50457"
 
     />
     </div>
