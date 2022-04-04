@@ -47,7 +47,7 @@ return (
     <CharacterCard
     name="Kiiroitori"
     size="small"
-    image="https://blog.yumetwins.com/wp-content/uploads/2021/06/931b49dc9a81478be91c4ec6c3e8906b6f846012_kiiroitori.jpg"
+    image="https://cdn.myanimelist.net/images/characters/5/406171.jpg"
 
     />
     </div>
