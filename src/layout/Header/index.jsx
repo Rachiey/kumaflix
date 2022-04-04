@@ -10,7 +10,7 @@ export const Header = () => {
         
         <nav>
             
-                <img className='logo'src={logo} />
+            <NavLink to='/'> <img className='logo'src={logo} /> </NavLink>
            
 
             {/* <NavLink className="kumaFlix" exact to='/'>Kumaflix</NavLink>
