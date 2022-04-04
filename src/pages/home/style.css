@@ -50,6 +50,15 @@ html {
    
 }
 
+
+#films {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+
 @media screen and (max-width: 600px) {
     .characterGrid {
         display:grid;
